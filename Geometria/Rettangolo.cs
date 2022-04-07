@@ -22,6 +22,18 @@ namespace Geometria
             this.altezzaRettangolo = altezzaRettangolo;
 
         }
+
+        //----------- Metodo 1 perimetro rettangolo --------------
+
+        public void perimetroRettangolo(int baseRettangolo , int altezzaRettangolo)
+        {
+
+            this.baseRettangolo = baseRettangolo;
+            this.altezzaRettangolo = altezzaRettangolo;
+            int perimetro = baseRettangolo + altezzaRettangolo * 2;
+
+
+        }
     }
 
 }
