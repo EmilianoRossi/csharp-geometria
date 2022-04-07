@@ -12,7 +12,8 @@ namespace Geometria
 
         private int baseRettangolo;
         private int altezzaRettangolo;
-
+        private int area;
+        private int perimetro;
 
         //----------- Costruttore ------------
         public Rettangolo(int baseRettangolo, int altezzaRettangolo)
@@ -25,23 +26,38 @@ namespace Geometria
 
         //----------- Metodo 1 perimetro rettangolo --------------
 
-        public void perimetroRettangolo()
+        public int perimetroRettangolo()
         {
 
             this.baseRettangolo = baseRettangolo;
             this.altezzaRettangolo = altezzaRettangolo;
-            int perimetro = baseRettangolo + altezzaRettangolo * 2;
-
+            int perimetro = baseRettangolo + altezzaRettangolo + baseRettangolo + altezzaRettangolo;
+            this.perimetro = perimetro;
+            return this.perimetro;
 
         }
 
         //------------- Metodo 2 area rettangolo -----------------
-        public void areaRettangolo()
+        public int areaRettangolo()
         {
 
             this.baseRettangolo = baseRettangolo;
             this.altezzaRettangolo = altezzaRettangolo;
             int area = baseRettangolo * altezzaRettangolo;
+            this.area = area;
+            return this.area;
+
+        }
+
+        //-------------- Metodo 3 stampa dati rettangolo ------------
+        public void stampaRettangolo()
+        {
+            Console.WriteLine("------- RETTANGOLO -------");
+            Console.WriteLine("Base: " + baseRettangolo + " cm.");
+            Console.WriteLine("Altezza: " + altezzaRettangolo + " cm.");
+            Console.WriteLine("Perimetro: " + perimetro + " cm.");
+            Console.WriteLine("Area: " + area + " cm2");
+            Console.WriteLine("--------------------------");
 
         }
     }
