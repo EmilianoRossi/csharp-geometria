@@ -15,7 +15,7 @@ namespace Geometria
 
 
         //----------- Costruttore ------------
-        public Rettangolo(string baseRettangolo, string altezzaRettangolo)
+        public Rettangolo(int baseRettangolo, int altezzaRettangolo)
         {
 
             this.baseRettangolo = baseRettangolo;
@@ -25,13 +25,23 @@ namespace Geometria
 
         //----------- Metodo 1 perimetro rettangolo --------------
 
-        public void perimetroRettangolo(int baseRettangolo , int altezzaRettangolo)
+        public void perimetroRettangolo()
         {
 
             this.baseRettangolo = baseRettangolo;
             this.altezzaRettangolo = altezzaRettangolo;
             int perimetro = baseRettangolo + altezzaRettangolo * 2;
 
+
+        }
+
+        //------------- Metodo 2 area rettangolo -----------------
+        public void areaRettangolo()
+        {
+
+            this.baseRettangolo = baseRettangolo;
+            this.altezzaRettangolo = altezzaRettangolo;
+            int area = baseRettangolo * altezzaRettangolo;
 
         }
     }
