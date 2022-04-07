@@ -13,6 +13,7 @@ Rettangolo mioRettangolo = new Rettangolo(baseInput , altezzaInput);
 
 mioRettangolo.perimetroRettangolo();
 mioRettangolo.areaRettangolo();
+mioRettangolo.stampaRettangolo();
 
 
 
