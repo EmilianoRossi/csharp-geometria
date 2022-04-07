@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometria", "Geometria\Geometria.csproj", "{9F81A4F3-9748-4E56-8803-FB3CA447CC88}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiveCoding4", "..\LiveCoding4\LiveCoding4\LiveCoding4.csproj", "{81C386F6-79D5-413C-B232-4E3A69491D8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9F81A4F3-9748-4E56-8803-FB3CA447CC88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F81A4F3-9748-4E56-8803-FB3CA447CC88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F81A4F3-9748-4E56-8803-FB3CA447CC88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81C386F6-79D5-413C-B232-4E3A69491D8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81C386F6-79D5-413C-B232-4E3A69491D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81C386F6-79D5-413C-B232-4E3A69491D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81C386F6-79D5-413C-B232-4E3A69491D8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
